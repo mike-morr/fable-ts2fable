@@ -1,0 +1,3721 @@
+{
+	"id": 0,
+	"name": "@types/chalk",
+	"kind": 0,
+	"flags": {},
+	"children": [
+		{
+			"id": 1,
+			"name": "\"index.d\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/mike/Code/aesop/node_modules/@types/chalk/index.d.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "Chalk",
+					"kind": 2,
+					"kindString": "Module",
+					"flags": {},
+					"children": [
+						{
+							"id": 89,
+							"name": "Chalk",
+							"kind": 256,
+							"kindString": "Interface",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 109,
+									"name": "bgBlack",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 83,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgBlack",
+										"id": 55
+									}
+								},
+								{
+									"id": 113,
+									"name": "bgBlue",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 87,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgBlue",
+										"id": 59
+									}
+								},
+								{
+									"id": 115,
+									"name": "bgCyan",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 89,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgCyan",
+										"id": 61
+									}
+								},
+								{
+									"id": 111,
+									"name": "bgGreen",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 85,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgGreen",
+										"id": 57
+									}
+								},
+								{
+									"id": 114,
+									"name": "bgMagenta",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 88,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgMagenta",
+										"id": 60
+									}
+								},
+								{
+									"id": 110,
+									"name": "bgRed",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 84,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgRed",
+										"id": 56
+									}
+								},
+								{
+									"id": 116,
+									"name": "bgWhite",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 90,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgWhite",
+										"id": 62
+									}
+								},
+								{
+									"id": 112,
+									"name": "bgYellow",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 86,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgYellow",
+										"id": 58
+									}
+								},
+								{
+									"id": 99,
+									"name": "black",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 71,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.black",
+										"id": 45
+									}
+								},
+								{
+									"id": 103,
+									"name": "blue",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 75,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.blue",
+										"id": 49
+									}
+								},
+								{
+									"id": 92,
+									"name": "bold",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 62,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bold",
+										"id": 38
+									}
+								},
+								{
+									"id": 105,
+									"name": "cyan",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 77,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.cyan",
+										"id": 51
+									}
+								},
+								{
+									"id": 93,
+									"name": "dim",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 63,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.dim",
+										"id": 39
+									}
+								},
+								{
+									"id": 90,
+									"name": "enabled",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 131,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "instrinct",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 107,
+									"name": "gray",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 79,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.gray",
+										"id": 53
+									}
+								},
+								{
+									"id": 101,
+									"name": "green",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 73,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.green",
+										"id": 47
+									}
+								},
+								{
+									"id": 108,
+									"name": "grey",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 80,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.grey",
+										"id": 54
+									}
+								},
+								{
+									"id": 97,
+									"name": "hidden",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 67,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.hidden",
+										"id": 43
+									}
+								},
+								{
+									"id": 96,
+									"name": "inverse",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 66,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.inverse",
+										"id": 42
+									}
+								},
+								{
+									"id": 94,
+									"name": "italic",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 64,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.italic",
+										"id": 40
+									}
+								},
+								{
+									"id": 104,
+									"name": "magenta",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 76,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.magenta",
+										"id": 50
+									}
+								},
+								{
+									"id": 100,
+									"name": "red",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 72,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.red",
+										"id": 46
+									}
+								},
+								{
+									"id": 91,
+									"name": "reset",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 61,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.reset",
+										"id": 37
+									}
+								},
+								{
+									"id": 98,
+									"name": "strikethrough",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 68,
+											"character": 21
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.strikethrough",
+										"id": 44
+									}
+								},
+								{
+									"id": 95,
+									"name": "underline",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 65,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.underline",
+										"id": 41
+									}
+								},
+								{
+									"id": 106,
+									"name": "white",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 78,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.white",
+										"id": 52
+									}
+								},
+								{
+									"id": 102,
+									"name": "yellow",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 74,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.yellow",
+										"id": 48
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										109,
+										113,
+										115,
+										111,
+										114,
+										110,
+										116,
+										112,
+										99,
+										103,
+										92,
+										105,
+										93,
+										90,
+										107,
+										101,
+										108,
+										97,
+										96,
+										94,
+										104,
+										100,
+										91,
+										98,
+										95,
+										106,
+										102
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 130,
+									"character": 26
+								}
+							],
+							"extendedTypes": [
+								{
+									"type": "reference",
+									"name": "ChalkStyle",
+									"id": 36
+								}
+							]
+						},
+						{
+							"id": 3,
+							"name": "ChalkChain",
+							"kind": 256,
+							"kindString": "Interface",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 4,
+									"name": "__call",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "instrinct",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 5,
+									"name": "__call",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 6,
+											"name": "text",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isRest": true
+											},
+											"type": {
+												"type": "instrinct",
+												"isArray": true,
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "instrinct",
+										"name": "string"
+									}
+								}
+							],
+							"children": [
+								{
+									"id": 25,
+									"name": "bgBlack",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 83,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgBlack",
+										"id": 55
+									}
+								},
+								{
+									"id": 29,
+									"name": "bgBlue",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 87,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgBlue",
+										"id": 59
+									}
+								},
+								{
+									"id": 31,
+									"name": "bgCyan",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 89,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgCyan",
+										"id": 61
+									}
+								},
+								{
+									"id": 27,
+									"name": "bgGreen",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 85,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgGreen",
+										"id": 57
+									}
+								},
+								{
+									"id": 30,
+									"name": "bgMagenta",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 88,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgMagenta",
+										"id": 60
+									}
+								},
+								{
+									"id": 26,
+									"name": "bgRed",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 84,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgRed",
+										"id": 56
+									}
+								},
+								{
+									"id": 32,
+									"name": "bgWhite",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 90,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgWhite",
+										"id": 62
+									}
+								},
+								{
+									"id": 28,
+									"name": "bgYellow",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 86,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bgYellow",
+										"id": 58
+									}
+								},
+								{
+									"id": 15,
+									"name": "black",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 71,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.black",
+										"id": 45
+									}
+								},
+								{
+									"id": 19,
+									"name": "blue",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 75,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.blue",
+										"id": 49
+									}
+								},
+								{
+									"id": 8,
+									"name": "bold",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 62,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.bold",
+										"id": 38
+									}
+								},
+								{
+									"id": 21,
+									"name": "cyan",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 77,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.cyan",
+										"id": 51
+									}
+								},
+								{
+									"id": 9,
+									"name": "dim",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 63,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.dim",
+										"id": 39
+									}
+								},
+								{
+									"id": 23,
+									"name": "gray",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 79,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.gray",
+										"id": 53
+									}
+								},
+								{
+									"id": 17,
+									"name": "green",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 73,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.green",
+										"id": 47
+									}
+								},
+								{
+									"id": 24,
+									"name": "grey",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 80,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.grey",
+										"id": 54
+									}
+								},
+								{
+									"id": 13,
+									"name": "hidden",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 67,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.hidden",
+										"id": 43
+									}
+								},
+								{
+									"id": 12,
+									"name": "inverse",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 66,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.inverse",
+										"id": 42
+									}
+								},
+								{
+									"id": 10,
+									"name": "italic",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 64,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.italic",
+										"id": 40
+									}
+								},
+								{
+									"id": 20,
+									"name": "magenta",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 76,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.magenta",
+										"id": 50
+									}
+								},
+								{
+									"id": 16,
+									"name": "red",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 72,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.red",
+										"id": 46
+									}
+								},
+								{
+									"id": 7,
+									"name": "reset",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 61,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.reset",
+										"id": 37
+									}
+								},
+								{
+									"id": 14,
+									"name": "strikethrough",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 68,
+											"character": 21
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.strikethrough",
+										"id": 44
+									}
+								},
+								{
+									"id": 11,
+									"name": "underline",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 65,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.underline",
+										"id": 41
+									}
+								},
+								{
+									"id": 22,
+									"name": "white",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 78,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.white",
+										"id": 52
+									}
+								},
+								{
+									"id": 18,
+									"name": "yellow",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 74,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"name": "ChalkStyle.yellow",
+										"id": 48
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										25,
+										29,
+										31,
+										27,
+										30,
+										26,
+										32,
+										28,
+										15,
+										19,
+										8,
+										21,
+										9,
+										23,
+										17,
+										24,
+										13,
+										12,
+										10,
+										20,
+										16,
+										7,
+										14,
+										11,
+										22,
+										18
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 16,
+									"character": 31
+								}
+							],
+							"extendedTypes": [
+								{
+									"type": "reference",
+									"name": "ChalkStyle",
+									"id": 36
+								}
+							]
+						},
+						{
+							"id": 36,
+							"name": "ChalkStyle",
+							"kind": 256,
+							"kindString": "Interface",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 55,
+									"name": "bgBlack",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 83,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 59,
+									"name": "bgBlue",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 87,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 61,
+									"name": "bgCyan",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 89,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 57,
+									"name": "bgGreen",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 85,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 60,
+									"name": "bgMagenta",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 88,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 56,
+									"name": "bgRed",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 84,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 62,
+									"name": "bgWhite",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 90,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 58,
+									"name": "bgYellow",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 86,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 45,
+									"name": "black",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 71,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 49,
+									"name": "blue",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 75,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 38,
+									"name": "bold",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 62,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 51,
+									"name": "cyan",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 77,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 39,
+									"name": "dim",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 63,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 53,
+									"name": "gray",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 79,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 47,
+									"name": "green",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 73,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 54,
+									"name": "grey",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 80,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 43,
+									"name": "hidden",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 67,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 42,
+									"name": "inverse",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 66,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 40,
+									"name": "italic",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 64,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 50,
+									"name": "magenta",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 76,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 46,
+									"name": "red",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 72,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 37,
+									"name": "reset",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 61,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 44,
+									"name": "strikethrough",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 68,
+											"character": 21
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 41,
+									"name": "underline",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 65,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 52,
+									"name": "white",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 78,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								},
+								{
+									"id": 48,
+									"name": "yellow",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 74,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkChain",
+										"id": 3
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										55,
+										59,
+										61,
+										57,
+										60,
+										56,
+										62,
+										58,
+										45,
+										49,
+										38,
+										51,
+										39,
+										53,
+										47,
+										54,
+										43,
+										42,
+										40,
+										50,
+										46,
+										37,
+										44,
+										41,
+										52,
+										48
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 59,
+									"character": 31
+								}
+							],
+							"extendedBy": [
+								{
+									"type": "reference",
+									"name": "ChalkChain",
+									"id": 3
+								},
+								{
+									"type": "reference",
+									"name": "Chalk",
+									"id": 89
+								}
+							]
+						},
+						{
+							"id": 33,
+							"name": "ChalkStyleElement",
+							"kind": 256,
+							"kindString": "Interface",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 35,
+									"name": "close",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 23,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "instrinct",
+										"name": "string"
+									}
+								},
+								{
+									"id": 34,
+									"name": "open",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 22,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "instrinct",
+										"name": "string"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										35,
+										34
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 21,
+									"character": 38
+								}
+							]
+						},
+						{
+							"id": 63,
+							"name": "ChalkStyleMap",
+							"kind": 256,
+							"kindString": "Interface",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 81,
+									"name": "bgBlack",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 116,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 85,
+									"name": "bgBlue",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 120,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 87,
+									"name": "bgCyan",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 122,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 83,
+									"name": "bgGreen",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 118,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 86,
+									"name": "bgMagenta",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 121,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 82,
+									"name": "bgRed",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 117,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 88,
+									"name": "bgWhite",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 123,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 84,
+									"name": "bgYellow",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 119,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 72,
+									"name": "black",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 105,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 76,
+									"name": "blue",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 109,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 65,
+									"name": "bold",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 96,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 78,
+									"name": "cyan",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 111,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 66,
+									"name": "dim",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 97,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 80,
+									"name": "gray",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 113,
+											"character": 12
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 74,
+									"name": "green",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 107,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 70,
+									"name": "hidden",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 101,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 69,
+									"name": "inverse",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 100,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 67,
+									"name": "italic",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 98,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 77,
+									"name": "magenta",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 110,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 73,
+									"name": "red",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 106,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 64,
+									"name": "reset",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 95,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 71,
+									"name": "strikethrough",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 102,
+											"character": 21
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 68,
+									"name": "underline",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 99,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 79,
+									"name": "white",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 112,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								},
+								{
+									"id": 75,
+									"name": "yellow",
+									"kind": 1024,
+									"kindString": "Property",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 108,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "ChalkStyleElement",
+										"id": 33
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"kind": 1024,
+									"children": [
+										81,
+										85,
+										87,
+										83,
+										86,
+										82,
+										88,
+										84,
+										72,
+										76,
+										65,
+										78,
+										66,
+										80,
+										74,
+										70,
+										69,
+										67,
+										77,
+										73,
+										64,
+										71,
+										68,
+										79,
+										75
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 93,
+									"character": 34
+								}
+							]
+						},
+						{
+							"id": 144,
+							"name": "bgBlack",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 49,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 148,
+							"name": "bgBlue",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 53,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 150,
+							"name": "bgCyan",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 55,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 146,
+							"name": "bgGreen",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 51,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 149,
+							"name": "bgMagenta",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 54,
+									"character": 24
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 145,
+							"name": "bgRed",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 50,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 151,
+							"name": "bgWhite",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 56,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 147,
+							"name": "bgYellow",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 52,
+									"character": 23
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 134,
+							"name": "black",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 37,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 138,
+							"name": "blue",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 41,
+									"character": 19
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 127,
+							"name": "bold",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 28,
+									"character": 19
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 152,
+							"name": "constructor",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 126,
+									"character": 28
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 153,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 154,
+											"name": "constructor",
+											"kind": 512,
+											"kindString": "Constructor",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 155,
+													"name": "new __type",
+													"kind": 16384,
+													"kindString": "Constructor signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 156,
+															"name": "options",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reflection",
+																"declaration": {
+																	"id": 157,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {},
+																	"children": [
+																		{
+																			"id": 158,
+																			"name": "enabled",
+																			"kind": 32,
+																			"kindString": "Variable",
+																			"flags": {},
+																			"sources": [
+																				{
+																					"fileName": "index.d.ts",
+																					"line": 127,
+																					"character": 30
+																				}
+																			],
+																			"type": {
+																				"type": "instrinct",
+																				"name": "boolean"
+																			}
+																		}
+																	],
+																	"groups": [
+																		{
+																			"title": "Variables",
+																			"kind": 32,
+																			"children": [
+																				158
+																			]
+																		}
+																	],
+																	"sources": [
+																		{
+																			"fileName": "index.d.ts",
+																			"line": 127,
+																			"character": 21
+																		}
+																	]
+																}
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "Chalk",
+														"id": 89
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "index.d.ts",
+													"line": 126,
+													"character": 31
+												}
+											]
+										}
+									],
+									"groups": [
+										{
+											"title": "Constructors",
+											"kind": 512,
+											"children": [
+												154
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "index.d.ts",
+											"line": 126,
+											"character": 29
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 140,
+							"name": "cyan",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 43,
+									"character": 19
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 128,
+							"name": "dim",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 29,
+									"character": 18
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 117,
+							"name": "enabled",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 9,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "instrinct",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 142,
+							"name": "gray",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 45,
+									"character": 19
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 136,
+							"name": "green",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 39,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 143,
+							"name": "grey",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 46,
+									"character": 19
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 132,
+							"name": "hidden",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 33,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 131,
+							"name": "inverse",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 32,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 129,
+							"name": "italic",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 30,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 139,
+							"name": "magenta",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 42,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 135,
+							"name": "red",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 38,
+									"character": 18
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 126,
+							"name": "reset",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 27,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 133,
+							"name": "strikethrough",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 34,
+									"character": 28
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 119,
+							"name": "styles",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 11,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkStyleMap",
+								"id": 63
+							}
+						},
+						{
+							"id": 118,
+							"name": "supportsColor",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 10,
+									"character": 28
+								}
+							],
+							"type": {
+								"type": "instrinct",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 130,
+							"name": "underline",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 31,
+									"character": 24
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 141,
+							"name": "white",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 44,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 137,
+							"name": "yellow",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 40,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ChalkChain",
+								"id": 3
+							}
+						},
+						{
+							"id": 123,
+							"name": "hasColor",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 124,
+									"name": "hasColor",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 125,
+											"name": "str",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "instrinct",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "instrinct",
+										"name": "boolean"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 14,
+									"character": 28
+								}
+							]
+						},
+						{
+							"id": 120,
+							"name": "stripColor",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 121,
+									"name": "stripColor",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 122,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "instrinct",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "instrinct",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "index.d.ts",
+									"line": 13,
+									"character": 30
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Interfaces",
+							"kind": 256,
+							"children": [
+								89,
+								3,
+								36,
+								33,
+								63
+							]
+						},
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								144,
+								148,
+								150,
+								146,
+								149,
+								145,
+								151,
+								147,
+								134,
+								138,
+								127,
+								152,
+								140,
+								128,
+								117,
+								142,
+								136,
+								143,
+								132,
+								131,
+								129,
+								139,
+								135,
+								126,
+								133,
+								119,
+								118,
+								130,
+								141,
+								137
+							]
+						},
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								123,
+								120
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "index.d.ts",
+							"line": 8,
+							"character": 23
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Modules",
+					"kind": 2,
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "index.d.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "External modules",
+			"kind": 1,
+			"children": [
+				1
+			]
+		}
+	]
+}
