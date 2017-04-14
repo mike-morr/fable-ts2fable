@@ -1,19 +1,12 @@
 module Aesop.Ts2Fable
-#if INTERACTIVE
 
-#endif
-open Fable.Core
-open Fable.Core.JsInterop
 open Aesop.JsonParser
+open Fable.Core
 open Fable.Import.Node
-let fs: fs_types.Globals = importAll "fs"
 
-let fileContents name =
-  fs.readFileSync name
-  |> string
-  |> ofJsonWithTypeInfo
+let getJson name =
+  match ofString (fs.readFileSync name |> string) with
+    | Ok(json) -> json
+    | Error(e) -> raise e
 
-let json =
-  match fileContents "../json.js" with
-    | ofString 
-
+printfn "%A" (getJson "../foo.json")

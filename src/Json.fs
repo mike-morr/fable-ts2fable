@@ -10,7 +10,6 @@ type Json =
     | Boolean of bool
     | Null
 
-type Result<Json, System.Exception> =
     
 // TODO implement this in F# rather than the FFI
 [<Import("ofString", "./Json.js")>]
