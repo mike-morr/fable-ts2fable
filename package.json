@@ -5,6 +5,7 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
+    "code": "cross-env UseCommonOutputDirectory=True code .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,7 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "babel-runtime": "^6.23.0",
-    "fable-core": "^1.0.0-narumi-905"
+    "cross-env": "^4.0.0",
+    "fable-core": "^1.0.0-narumi-905",
+    "fable-powerpack": "next"
   },
   "devDependencies": {
     "@types/chalk": "^0.4.31",

@@ -1,36 +1,39 @@
 const getType = (a) =>
-  ({}).toString.call(a);
+    ({}).toString.call(a);
 
 const mapObject = (a, f) =>
-  Object.keys(a).map((key) => f(key, a[key]));
+    Object.keys(a).map((key) => f(key, a[key]));
 
-export const ofString = (String, Number, Object, Array, Boolean, Null, Some, None) => {
-  const makeJson = (a) => {
-    switch (getType(a)) {
-    case "[object Object]":
-      return Some(Object(mapObject(a, (key, value) => [key, makeJson(value)])));
-    case "[object Array]":
-      return Some(Array(a.map(makeJson)));
-    case "[object Number]":
-      return Some(Number(a));
-    case "[object String]":
-      return Some(String(a));
-    case "[object Boolean]":
-      return Some(Boolean(a));
-    case "[object Null]":
-      return Some(Null);
-    default:
-      return None;
-    }
-  };
+export const ofString = (String, Number, Object, Array, Boolean, Null, Ok, Err) => {
+    const mapper = (key, value) => [key, makeJson(value)];
 
-  return (input) => {
-    try {
-      return makeJson(JSON.parse(input));
+    const makeJson = (a) => {
+        const type = getType(a);
 
-    // TODO maybe return the error message ?
-    } catch (e) {
-      return None;
-    }
-  };
+        switch (type) {
+        case "[object Object]":
+            return Object(mapObject(a, mapper));
+        case "[object Array]":
+            return Array(a.map(makeJson));
+        case "[object Number]":
+            return Number(a);
+        case "[object String]":
+            return String(a);
+        case "[object Boolean]":
+            return Boolean(a);
+        case "[object Null]":
+            return Null;
+        default:
+            throw new Error("Unknown type: " + type);
+        }
+    };
+
+    return (input) => {
+        try {
+            return Ok(makeJson(JSON.parse(input)));
+
+        } catch (e) {
+            return Err(e);
+        }
+    };
 };
