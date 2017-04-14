@@ -2,11 +2,11 @@ module Aesop.JsonParser
 
 open Fable.Core
 
-type Json =
+type JsonType =
     | String of string
     | Number of float
-    | Object of array<string * Json>
-    | Array of array<Json>
+    | Object of array<string * JsonType>
+    | Array of array<JsonType>
     | Boolean of bool
     | Null
 
@@ -14,14 +14,14 @@ type Json =
 // TODO implement this in F# rather than the FFI
 [<Import("ofString", "./Json.js")>]
 let private _ofString:
-    (string -> Json) ->
-    (float -> Json) ->
-    (array<string * Json> -> Json) ->
-    (array<Json> -> Json) ->
-    (bool -> Json) ->
-    Json ->
-    (Json -> Result<Json, System.Exception>) ->
-    (System.Exception -> Result<Json, System.Exception>) ->
-    (string -> Result<Json, System.Exception>) = jsNative
+    (string -> JsonType) ->
+    (float -> JsonType) ->
+    (array<string * JsonType> -> JsonType) ->
+    (array<JsonType> -> JsonType) ->
+    (bool -> JsonType) ->
+    JsonType ->
+    (JsonType -> Result<JsonType, System.Exception>) ->
+    (System.Exception -> Result<JsonType, System.Exception>) ->
+    (string -> Result<JsonType, System.Exception>) = jsNative
 
-let ofString: string -> Result<Json, System.Exception> = _ofString String Number Object Array Boolean Null Ok Error
+let ofString: string -> Result<JsonType, System.Exception> = _ofString String Number Object Array Boolean Null Ok Error

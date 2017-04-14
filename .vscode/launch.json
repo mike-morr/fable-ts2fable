@@ -10,6 +10,8 @@
       "name": "Launch Program",
       "program": "${workspaceRoot}\\public\\bundle.js",
       "console": "integratedTerminal",
+      "preLaunchTask": "fable",
+      "showAsyncStacks": true,
       "sourceMaps": true
     },
     {
