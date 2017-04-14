@@ -12,6 +12,7 @@ var babelOptions = {
 
 module.exports = {
   devtool: "source-map",
+  target: "node",
   entry: resolve('./aesop.fsproj'),
   output: {
     filename: 'bundle.js',

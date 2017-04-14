@@ -4,7 +4,8 @@
   "description": "Simple Fable App",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server",
+    "fable": "dotnet fable npm-run build",
+    "start": "cross-env yarn fable && node ./public/bundle.js",
     "code": "cross-env UseCommonOutputDirectory=True code .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,9 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "babel-runtime": "^6.23.0",
+    "fable-core": "next",
+    "fable-powerpack": "next",
     "cross-env": "^4.0.0",
-    "fable-core": "^1.0.0-narumi-905",
-    "fable-powerpack": "next"
+    "fs-extra": "^2.1.2"
   },
   "devDependencies": {
     "@types/chalk": "^0.4.31",
@@ -26,7 +28,7 @@
     "chalk": "^1.1.3",
     "clear": "0.0.1",
     "clui": "^0.3.1",
-    "fable-loader": "^1.0.0-narumi-905",
+    "fable-loader": "next",
     "figlet": "^1.2.0",
     "github": "^9.2.0",
     "inquirer": "^3.0.6",

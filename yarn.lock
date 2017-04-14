@@ -1247,17 +1247,23 @@ extsprintf@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.0.2.tgz#e1080e0658e300b06294990cc70e1502235fd550"
 
-fable-core@^1.0.0-narumi-905:
-  version "1.0.0-narumi-906"
-  resolved "https://registry.yarnpkg.com/fable-core/-/fable-core-1.0.0-narumi-906.tgz#0c1503c5e036134e3d52e00ab5be66c7336d052b"
+fable-core@next:
+  version "1.0.0-narumi-909"
+  resolved "https://registry.yarnpkg.com/fable-core/-/fable-core-1.0.0-narumi-909.tgz#d3bd7f6392183ce401710b8a878aff237805683a"
 
-fable-loader@^1.0.0-narumi-905:
-  version "1.0.0-narumi-908"
-  resolved "https://registry.yarnpkg.com/fable-loader/-/fable-loader-1.0.0-narumi-908.tgz#78f2b5f012e68d87458ea3ddce8a55a58f7f9f43"
+fable-loader@next:
+  version "1.0.0-narumi-909"
+  resolved "https://registry.yarnpkg.com/fable-loader/-/fable-loader-1.0.0-narumi-909.tgz#9fd4aa6ee2d6bdcefd6db2f866a2d6bfa32d95c9"
+  dependencies:
+    fable-utils "^1.0.0"
 
 fable-powerpack@next:
   version "1.0.0-narumi-3"
   resolved "https://registry.yarnpkg.com/fable-powerpack/-/fable-powerpack-1.0.0-narumi-3.tgz#172c6a1b99972262bb8ad329094e3eebca895459"
+
+fable-utils@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/fable-utils/-/fable-utils-1.0.0.tgz#3e746283010d775f3b95208805c71c7f75143011"
 
 faye-websocket@^0.10.0:
   version "0.10.0"
@@ -1359,6 +1365,13 @@ fresh@0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.0.tgz#f474ca5e6a9246d6fd8e0953cfa9b9c805afa78e"
 
+fs-extra@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-2.1.2.tgz#046c70163cef9aad46b0e4a7fa467fb22d71de35"
+  dependencies:
+    graceful-fs "^4.1.2"
+    jsonfile "^2.1.0"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -1447,7 +1460,7 @@ globals@^9.0.0:
   version "9.17.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-9.17.0.tgz#0c0ca696d9b9bb694d2e5470bd37777caad50286"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.2:
+graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
@@ -1820,6 +1833,12 @@ json3@^3.3.2:
 json5@^0.5.0:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/json5/-/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
+
+jsonfile@^2.1.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-2.4.0.tgz#3736a2b428b87bbda0cc83b53fa3d633a35c2ae8"
+  optionalDependencies:
+    graceful-fs "^4.1.6"
 
 jsonify@~0.0.0:
   version "0.0.0"
