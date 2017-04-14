@@ -2369,7 +2369,7 @@ function getJson(name) {
 }
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__node_modules_fable_core_String__["a" /* fsFormat */])("%A")(function (x) {
   console.log(x);
-})(getJson("../chalk.json"));
+})(getJson("chalk.json"));
 
 /***/ }),
 /* 70 */

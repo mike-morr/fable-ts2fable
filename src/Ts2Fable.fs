@@ -10,4 +10,4 @@ let getJson name =
     | Ok(json) -> json
     | Error(e) -> raise e
 
-printfn "%A" (getJson ".chalk.json")
+printfn "%A" (getJson "chalk.json")

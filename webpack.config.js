@@ -6,7 +6,11 @@ function resolve(filePath) {
 }
 
 var babelOptions = {
-  presets: [["es2015", {"modules": false}]],
+  presets: [
+    ["es2015", {
+      "modules": false
+    }]
+  ],
   plugins: ["transform-runtime"]
 }
 
@@ -21,14 +25,15 @@ module.exports = {
   devServer: {
     contentBase: resolve('./public'),
     port: 8080
- },
+  },
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.fs(x|proj)?$/,
         use: {
           loader: "fable-loader",
-          options: { babel: babelOptions }
+          options: {
+            babel: babelOptions
+          }
         }
       },
       {
