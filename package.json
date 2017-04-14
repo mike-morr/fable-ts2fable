@@ -5,7 +5,8 @@
   "scripts": {
     "build": "webpack",
     "fable": "dotnet fable npm-run build",
-    "start": "cross-env yarn fable && node ./public/bundle.js",
+    "start": "cross-env yarn fable && yarn node",
+    "node": "node ./public/bundle.js",
     "code": "cross-env UseCommonOutputDirectory=True code .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,10 +15,11 @@
   "license": "ISC",
   "dependencies": {
     "babel-runtime": "^6.23.0",
+    "cross-env": "^4.0.0",
     "fable-core": "next",
     "fable-powerpack": "next",
-    "cross-env": "^4.0.0",
-    "fs-extra": "^2.1.2"
+    "fs-extra": "^2.1.2",
+    "source-map-loader": "^0.2.1"
   },
   "devDependencies": {
     "@types/chalk": "^0.4.31",

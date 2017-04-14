@@ -4,7 +4,7 @@ const getType = (a) =>
 const mapObject = (a, f) =>
     Object.keys(a).map((key) => f(key, a[key]));
 
-export const ofString = (String, Number, Object, Array, Boolean, Null, Ok, Err) => {
+export const ofString = (String, Number, Object, Array, Boolean, Null, Ok, Err, input) => {
     const mapper = (key, value) => [key, makeJson(value)];
 
     const makeJson = (a) => {
@@ -28,12 +28,10 @@ export const ofString = (String, Number, Object, Array, Boolean, Null, Ok, Err) 
         }
     };
 
-    return (input) => {
-        try {
-            return Ok(makeJson(JSON.parse(input)));
+    try {
+        return Ok(makeJson(JSON.parse(input)));
 
-        } catch (e) {
-            return Err(e);
-        }
-    };
+    } catch (e) {
+        return Err(e);
+    }
 };

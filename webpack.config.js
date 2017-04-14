@@ -28,6 +28,10 @@ module.exports = {
   },
   module: {
     rules: [{
+        test: /\.jsx?$/,
+        use: ["source-map-loader"],
+        enforce: "pre"
+      }, {
         test: /\.fs(x|proj)?$/,
         use: {
           loader: "fable-loader",
